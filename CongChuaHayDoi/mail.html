@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="website icon" type="png" href="image/traitym.png">
+    <link rel="stylesheet" href="mail.css">
+    <title>Thương gửi Công Chúa Hay Dỗi</title>
+</head>
+<body>
+    <div class="warpper preloading">
+        <div class="box">
+            <div class="mail">
+                <div class="heart">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                    <img src="image/tym.png" alt="">
+                </div>
+                <div class="content">
+                    <div class="title">
+                        <h2>Gửi em!</h2>
+                    </div>
+                    <p>
+                        Gửi đến cậu cô gái nhỏ bé của tớ!<br>
+                        Tớ biết rằng cô gái của tớ đã phải chịu áp lực rất nhiều từ công việc và mọi chuyện.
+                        Nếu như cậu coi tớ là chỗ dựa thì chắc chắn tớ sẽ luôn làm động lực để
+                        cậu vượt qua mọi khó khăn, và nếu mệt mỏi hay  
+                        gục ngã thì hãy nhớ rằng tớ luôn ở bên cậu và che chở, bảo vệ
+                        cho cậu những lúc cậu cần tớ nhất!
+                        Tớ mong rằng cô gái của tớ luôn gặp may mắn trong cuộc sống.
+                        <br>Thương cậu nhiều lắm!
+                        <br>BNT
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="loader-wrapper">
+            <div class="loader">
+                <div class="inner one" style="--i:1;"></div>
+                <div class="inner two" style="--i:1;"></div>
+                <div class="inner three" style="--i:1;"></div>
+                <div class="box-heart">
+                    <div class="heartLoader"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script>
+        $(window).on('load', function(event){
+        $('body').removeClass('preloading');
+        $('.loader-wrapper').delay(1000).fadeOut('fast');
+    });
+    </script>
+</html>
